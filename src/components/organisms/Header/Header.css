@@ -1,0 +1,42 @@
+.header {
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+  margin: 21px auto;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.headerLogo {
+    font-size: 36px;
+    color: white;
+    letter-spacing: -2.6px;
+    font-weight: 500;
+}
+.headerTools {
+    color: #676767;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.headerTool {
+    color: #676767;
+    text-decoration: none;
+}
+.headerTool:hover{
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1170px) {
+    .header {
+        max-width: 568px;
+        margin: 0 auto;
+    }
+  }

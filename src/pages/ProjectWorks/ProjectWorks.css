@@ -1,0 +1,86 @@
+.mainPageText {
+    font-weight: 600;
+    font-size: 56px;
+    color: #FFF;
+    letter-spacing: -0.74px;
+    text-transform: uppercase;
+    display: flex;
+}
+.nounProject {
+    color: rgba(188, 188, 188, 0.70);
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    font-size: 18px;
+}
+.projectAll {
+    max-width: 1160px;
+  margin: 0px auto;
+}
+
+.projectBox {
+    border-radius: 30px;
+background: linear-gradient(94deg, rgba(255, 255, 255, 0.03) 1.71%, rgba(220, 223, 234, 0.01) 104.45%, rgba(255, 255, 255, 0.01) 104.45%);
+padding: 21px;
+color: rgba(188, 188, 188, 0.50) ;
+font-size: 14px;
+letter-spacing: -0.14px;
+margin: 16px 0;
+width: 100%;
+}
+.projectBox1 {
+    background: none;
+}
+
+
+.photoBox {
+    width: 100%;
+height: 551px;
+background: #D9D9D9;
+}
+.articleProjectText {
+    color: rgba(255, 255, 255, 0.80);
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+}
+
+.articleProjectBox {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.articleBoxOrder {
+display: flex;
+justify-content: space-between;
+gap: 100px;
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(114deg, rgba(255, 255, 255, 0.08) 10.15%, rgba(255, 255, 255, 0.01) 89.36%);
+backdrop-filter: blur(20px);
+padding: 24px;
+margin-top: 50px;
+}
+
+.photoBox1 {
+    width: 100%;
+height: 399px;
+background: #D9D9D9;
+border-radius: 30px;
+margin: 24px 0 0 0;
+}
+
+.photoFlex {
+display: flex;
+gap: 24px;
+}
+
+.yearcolor {
+    color: white;
+    font-weight: 500;
+}
+
+.projectList {
+    padding: 24px 60px ;
+    width: 290px;
+}

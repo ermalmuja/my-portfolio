@@ -1,0 +1,45 @@
+.FirstBox {
+/* width: 568px;
+height: 318px; */
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(114deg, rgba(255, 255, 255, 0.08) 10.15%, rgba(255, 255, 255, 0.01) 89.36%);
+backdrop-filter: blur(20px);
+display: flex;
+align-items: center;
+gap: 39px;
+padding: 40px 48px;
+
+}
+
+.FirstBoxPosition {
+    margin: 40px 48px;
+}
+
+.FirstBoxImg {
+    width: 224px;
+    height: 224px;
+    border-radius: 30px 0 30px 0;
+    border: 10px;
+    object-fit: cover;
+}
+
+.FirstBoxText h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.72;
+    line-height: 40px;
+    margin-bottom: 10px;
+} 
+
+.FirstBoxTextImg  {
+margin-top: 20px;
+opacity: 20%;
+display: flex;
+justify-content: end;
+   }
+   .FirstBoxTextImg:hover  {
+    opacity: 100%;
+    cursor: pointer;
+       }

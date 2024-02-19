@@ -1,0 +1,12 @@
+.LineBox {
+    /* width: 568px; */
+height: 54px;
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(114deg, rgba(255, 255, 255, 0.08) 10.15%, rgba(255, 255, 255, 0.01) 89.36%);
+backdrop-filter: blur(20px);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 7px 26px;
+}

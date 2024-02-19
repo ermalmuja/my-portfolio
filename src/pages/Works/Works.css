@@ -1,0 +1,57 @@
+
+.ArticleBoxImg {
+    
+    /* height: 126px; */
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    border: 10px;
+    /* background-color: rgb(158, 158, 158); */
+    margin-bottom: 16px;
+}
+
+
+.gridsWorks {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 76px 290px 87px 390px;
+      
+}
+
+.aWorks {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    height: 100%;
+}
+
+.bAbout {
+    grid-column: 5/13;
+    grid-row: 1/2;
+} 
+.cWorks {
+    grid-column: 5/9;
+    grid-row: 2/4;
+    height: 100%;
+}
+.dWorks {
+    grid-column: 9/13;
+    grid-row: 2/4;
+    height: 100%;
+}
+.eWorks {
+        grid-column: 1/5;
+        grid-row: 3/5;
+        height: 100%;
+    
+}
+.fWorks {
+    grid-column: 5/9;
+    grid-row: 4/5;
+    height: 100%;
+
+}
+.gWorks {
+    grid-column: 9/13;
+    grid-row: 4/5;
+    height: 100%;
+}

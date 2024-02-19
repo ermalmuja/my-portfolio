@@ -1,0 +1,28 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+
+
+.headerTool {
+    text-decoration: none;
+}
+.headerTool:hover {
+    color: white;
+}
+
+.rights {
+    color: #676767;
+    font-size: 14px;
+    text-align: center; 
+    font-weight: 500;
+    letter-spacing: 0.14px;
+}
+.rights span {
+    color: #5774F6;
+}

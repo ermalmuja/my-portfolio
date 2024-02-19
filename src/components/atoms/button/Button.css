@@ -1,0 +1,16 @@
+.mainButton{
+    background-color: #323232;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 16px;
+    font-weight: 600;
+    border: none;
+}
+.headerButton{
+    padding: 13px 30px;
+}
+
+.mainButton:hover{
+    background-color: #6e6e6e;
+}

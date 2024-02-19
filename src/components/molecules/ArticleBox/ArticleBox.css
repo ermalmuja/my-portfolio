@@ -1,0 +1,43 @@
+.ArticleBox {
+   
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(114deg, rgba(255, 255, 255, 0.08) 10.15%, rgba(255, 255, 255, 0.01) 89.36%);
+backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    height: 100%;
+}
+.ArticleBoxImg {
+    
+    /* height: 126px; */
+    height: 100%;
+
+    border-radius: 20px 20px 20px 20px;
+    border: 10px;
+    /* background-color: rgb(158, 158, 158); */
+    margin-bottom: 16px;
+}
+.ArticleBoxText {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.ArticleBoxTextImg  {
+    width: 40.323px;
+height: 42px;
+    opacity: 20%;
+    display: flex;
+       }
+       .ArticleBoxTextImg:hover  {
+        opacity: 100%;
+        cursor: pointer;
+           }
+
+           .ArticleIcons {
+            display: flex;
+            justify-content: space-around;
+           }
